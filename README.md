@@ -22,28 +22,21 @@
 
 ## 🧱 Why I'm learning blockchain
 
-**The problem is trust, not software.** In Canadian construction, money flows owner → general contractor → subtrade → supplier, and every hand it passes through holds it a little longer. The Ontario study behind that province's prompt-payment law found subtrades waiting an average of 71 days to be paid for certified work. Ontario, Nova Scotia and the federal government have since legislated 28-day payment deadlines and fast adjudication. The law now says *when* money must move. Nothing enforces it except lawyers.
+**The problem is trust, not software.** In construction, money flows from owner to contractor to subtrade to supplier, and every hand it passes through holds it a little longer. Prompt-payment laws now say when money must move. Nothing enforces them except lawyers.
 
-**Existing tools can't fix this, because one party owns them.** Procore, Textura, GCPay: all good products, all controlled by the contractor who is also holding the money. A ledger only one side can audit is a promise, not a record. What's missing is a shared source of truth that the owner, the GC, the sub and the surety all read from, and none of them can quietly edit.
+**Existing tools can't fix this, because one party owns them.** The contractor who runs the software is also the one holding the money. A record only one side can audit is a promise, not a record.
 
-**That is the one thing a blockchain does well.** Not speculation, not coins. A neutral, append-only ledger with rules that execute themselves. On a job site that means:
+**That is the one thing a blockchain does well.** A shared ledger that the owner, the contractor, the sub and the surety all read from, and none of them can quietly edit, with rules that run themselves:
 
-- A progress payment is certified, and escrow releases it the same hour, not on day 71.
-- The 10% lien holdback is computed and held automatically and released on the statutory date, not when someone remembers or decides.
-- Release is gated on a signed lien waiver, so the sub's own suppliers and workers are protected down the chain.
-- Every change order, back-charge and notice is timestamped where nobody can rewrite it later.
+- Work is certified, and the payment releases. No chasing.
+- Holdback is calculated and released by the rule, not by memory or leverage.
+- Change orders and back-charges are stamped where nobody can rewrite them.
 
-**I know where the line is.** Someone still has to walk the site and certify the work. That is my job, and it stays human. Subs want CAD, not tokens. Lien law can't be contracted out. So the target is a hybrid: the chain owns the arithmetic and the audit trail, the bank moves the dollars, and the PM keeps the judgment.
+**I know where the line is.** Someone still has to walk the site and certify the work. That stays human. Subs want dollars, not tokens. Lien law can't be contracted out. So the design is a hybrid: the chain keeps the record and triggers the payment, and the bank moves the money.
 
-**Why me.** I'm the person who signs the payment certificate. I know which decisions on a payment application are judgment and which are arithmetic, and the arithmetic is most of it. That is the part worth turning into code.
+**Why me.** I'm the person who signs the payment certificate. I know which parts are judgment and which are arithmetic, and the arithmetic is the part worth turning into code.
 
-**The plan**, tracked on my [Open Source Roadmap](https://github.com/users/alimazloum2/projects/2):
-
-1. **Records first, no money.** Anchor payment certification events on-chain and get the data model right.
-2. **Milestone escrow on a testnet** with a mock stablecoin, automatic holdback and lien-waiver gating.
-3. **One pilot, one subtrade, one job.** The contract decides when payment is due; dollars still move by e-transfer.
-
-The public repos below are the groundwork: understand wallets, then a chain, then a token, before designing anything for a job site.
+**The plan**, tracked on my [Open Source Roadmap](https://github.com/users/alimazloum2/projects/2): records first with no money, then escrow on a testnet, then one pilot with one subtrade. The repos below are the groundwork: wallets, then a chain, then a token.
 
 ## 🚀 Featured projects
 
