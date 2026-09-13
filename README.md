@@ -1,8 +1,8 @@
 <h1 align="center">Hi, I'm Ali Mazloum 👋</h1>
 
 <p align="center">
-  Engineer based in Halifax, Nova Scotia 🇨🇦<br/>
-  I build practical tools in Python and TypeScript: blockchain experiments, Telegram bots, and engineering automation.
+  Electrical engineer and construction project manager in Halifax, Nova Scotia 🇨🇦<br/>
+  I write Python and TypeScript to take the grunt work out of estimating, and I'm studying blockchain because I think it can fix how construction gets paid.
 </p>
 
 <p align="center">
@@ -14,18 +14,20 @@
 
 ## 🔭 What I'm working on
 
-- **Blockchain from first principles** — building small, readable implementations to understand how Bitcoin and Ethereum really work.
-- **Crypto tooling** — wallet tracking, HD wallet generation and token-list infrastructure.
-- **Engineering automation** — CLIs and web apps that take the grunt work out of estimating and calculations.
-- **AI-assisted development** — agent workflows, skills and bridges for coding assistants.
+- **Estimating and takeoff automation** — CLIs and web apps that turn drawings and specs into quantities, costs and labour hours faster than a spreadsheet can.
+- **Blockchain for construction** — progress payments, holdback release and change orders still run on paper trust. I'm learning smart contracts to see how much of that can become code.
+- **Learning by building** — the wallet tracker, the educational blockchain and the test token below are deliberate steps: understand wallets, then chains, then tokens, before designing anything for a job site.
+- **AI-assisted engineering** — agent workflows and skills that speed up estimating and document review.
 
 ## 🚀 Featured projects
 
+Each public repo is one rung on the ladder toward construction payments on-chain.
+
 | Project | What it is | Stack |
 |---|---|---|
-| [wallet-tracker-bot](https://github.com/alimazloum2/wallet-tracker-bot) | Telegram bot that tracks BTC, ETH, BSC and SOL balances with live USD/CAD prices and generates BIP39 multi-chain wallets | Python |
-| [TinyCoin](https://github.com/alimazloum2/TinyCoin) | Educational blockchain: proof-of-work mining, ECDSA wallets, transaction validation, longest-chain consensus | Python |
-| [tigercoin-token-list](https://github.com/alimazloum2/tigercoin-token-list) | Token list and logo assets for TigerCoin (TGR) on Base, served via GitHub Pages | JSON / Pages |
+| [wallet-tracker-bot](https://github.com/alimazloum2/wallet-tracker-bot) | Step 1, wallets: Telegram bot that tracks BTC, ETH, BSC and SOL balances and generates BIP39 multi-chain wallets | Python |
+| [TinyCoin](https://github.com/alimazloum2/TinyCoin) | Step 2, chains: educational blockchain with proof-of-work mining, ECDSA signing, transaction validation and consensus | Python |
+| [tigercoin-token-list](https://github.com/alimazloum2/tigercoin-token-list) | Step 3, tokens: token-list infrastructure for a test token on Base, served via GitHub Pages | JSON / Pages |
 
 ## 🛠️ Toolbox
 
