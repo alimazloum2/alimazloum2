@@ -26,8 +26,6 @@
 | [wallet-tracker-bot](https://github.com/alimazloum2/wallet-tracker-bot) | Telegram bot that tracks BTC, ETH, BSC and SOL balances with live USD/CAD prices and generates BIP39 multi-chain wallets | Python |
 | [TinyCoin](https://github.com/alimazloum2/TinyCoin) | Educational blockchain: proof-of-work mining, ECDSA wallets, transaction validation, longest-chain consensus | Python |
 | [tigercoin-token-list](https://github.com/alimazloum2/tigercoin-token-list) | Token list and logo assets for TigerCoin (TGR) on Base, served via GitHub Pages | JSON / Pages |
-| [bitcoin-personal](https://github.com/alimazloum2/bitcoin-personal) | Personal copy of Bitcoin Core for reading, building and experimenting | C++ |
-| [telecodex](https://github.com/alimazloum2/telecodex) | Telegram bridge for the OpenAI Codex CLI SDK | TypeScript |
 
 ## 🛠️ Toolbox
 
