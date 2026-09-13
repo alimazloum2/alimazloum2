@@ -19,6 +19,26 @@
 - **Learning by building** — the wallet tracker, the educational blockchain and the test token below are deliberate steps: understand wallets, then chains, then tokens, before designing anything for a job site.
 - **AI-assisted engineering** — agent workflows and skills that speed up estimating and document review.
 
+## 🧱 Why I'm learning blockchain
+
+I manage subtrades for a living. The same problems show up on every job:
+
+- **Subs wait 30 to 90 days to get paid** for work that was certified weeks earlier.
+- **Holdback** is a mechanical rule, yet it gets miscalculated, forgotten, or used as leverage.
+- **Change orders and back-charges** turn into "we never agreed to that" because the record lives in someone's inbox.
+
+A smart contract is a good fit for exactly this: money that should move when a condition is met, and records nobody can quietly edit later. Picture an escrow that releases a sub's progress payment the hour the PM certifies the milestone, computes and holds the statutory lien holdback on its own, and only pays out against a signed lien waiver, with every change order stamped on an immutable log.
+
+I'm not naive about the limits. Someone still has to walk the site and certify the work, subs want dollars rather than tokens, and lien law can't be contracted out. So the design I'm working toward is a hybrid: the chain is the neutral ledger and trigger, and the bank still moves the CAD.
+
+**The plan, tracked on my [Open Source Roadmap](https://github.com/users/alimazloum2/projects/2):**
+
+1. **Records first, no money.** Anchor payment certification events on-chain and get the data model right.
+2. **Milestone escrow on a testnet** with a mock stablecoin, including automatic holdback and lien-waiver gating.
+3. **One small pilot** with one friendly subtrade, where the contract decides when payment is due and dollars still move by e-transfer.
+
+The public repos below are the groundwork for that: wallets, then a chain, then a token.
+
 ## 🚀 Featured projects
 
 Each public repo is one rung on the ladder toward construction payments on-chain.
