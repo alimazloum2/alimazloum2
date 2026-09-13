@@ -15,6 +15,7 @@
 ## 🔭 What I'm working on
 
 - **Estimating and takeoff automation** — CLIs and web apps that turn drawings and specs into quantities, costs and labour hours faster than a spreadsheet can.
+- **Change management as one flow** — [Change Ledger](https://github.com/alimazloum2/change-ledger): RFI → CCN → subtrade pricing → estimate → CO → forecast, starting from the joins existing tools handle badly.
 - **Blockchain for construction** — progress payments, holdback release and change orders still run on paper trust. I'm learning smart contracts to see how much of that can become code.
 - **Learning by building** — the wallet tracker, the educational blockchain and the test token below are deliberate steps: understand wallets, then chains, then tokens, before designing anything for a job site.
 - **AI-assisted engineering** — agent workflows and skills that speed up estimating and document review.
@@ -41,10 +42,11 @@ The public repos below are the groundwork for that: wallets, then a chain, then 
 
 ## 🚀 Featured projects
 
-Each public repo is one rung on the ladder toward construction payments on-chain.
+Change Ledger is the day job problem. The three below it are rungs on the ladder toward construction payments on-chain.
 
 | Project | What it is | Stack |
 |---|---|---|
+| [change-ledger](https://github.com/alimazloum2/change-ledger) | Construction change management as one Change Event flow, from RFI to revised contract and forecast. Spec first, code next | Spec / Python |
 | [wallet-tracker-bot](https://github.com/alimazloum2/wallet-tracker-bot) | Step 1, wallets: Telegram bot that tracks BTC, ETH, BSC and SOL balances and generates BIP39 multi-chain wallets | Python |
 | [TinyCoin](https://github.com/alimazloum2/TinyCoin) | Step 2, chains: educational blockchain with proof-of-work mining, ECDSA signing, transaction validation and consensus | Python |
 | [tigercoin-token-list](https://github.com/alimazloum2/tigercoin-token-list) | Step 3, tokens: token-list infrastructure for a test token on Base, served via GitHub Pages | JSON / Pages |
